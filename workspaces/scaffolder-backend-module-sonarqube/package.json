@@ -57,5 +57,9 @@
     "*.{json,md}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@backstage-community/plugin-scaffolder-backend-module-sonarqube": "workspace:^",
+    "backend": "workspace:^"
   }
 }
